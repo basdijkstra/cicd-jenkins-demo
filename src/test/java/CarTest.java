@@ -1,8 +1,8 @@
-import org.junit.Assert;
-import org.junit.Test;
+//import org.junit.*;
 
 public class CarTest {
 
+    /*
     @Test()
     public void testPos() {
 
@@ -28,4 +28,5 @@ public class CarTest {
         // Assert - Check that the result of the method invocation matches the expected result
         Assert.assertFalse(isItalian);
     }
+    */
 }
