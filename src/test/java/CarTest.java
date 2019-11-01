@@ -1,10 +1,9 @@
-//import org.junit.*;
+import org.junit.*;
 
 public class CarTest {
 
-    /*
-    @Test()
-    public void testPos() {
+    @Test
+    public void ditIsEenVeelBetereTestNaam() {
 
         // Arrange - Create a new instance of the Car class with prespecified property values
         Car myCar = new Car("Maserati","Ghibli","blue");
@@ -17,7 +16,7 @@ public class CarTest {
     }
 
     @Test
-    public void testNeg() {
+    public void ditOok() {
 
         // Arrange - Create a new instance of the Car class with prespecified property values
         Car myCar = new Car("Ford","Focus","black");
@@ -28,5 +27,4 @@ public class CarTest {
         // Assert - Check that the result of the method invocation matches the expected result
         Assert.assertFalse(isItalian);
     }
-    */
 }
