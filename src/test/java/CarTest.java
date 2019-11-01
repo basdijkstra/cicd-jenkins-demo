@@ -16,7 +16,7 @@ public class CarTest {
     }
 
     @Test
-    public void dezeIsEchtNogVeelZinniger() {
+    public void dezeIsEchtNogVeelZinn() {
 
         // Arrange - Create a new instance of the Car class with prespecified property values
         Car myCar = new Car("Ford","Focus","black");
