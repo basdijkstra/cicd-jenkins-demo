@@ -19,7 +19,7 @@ public class CarTest {
     public void dezeIsEchtNogVeelZin() {
 
         // Arrange - Create a new instance of the Car class with prespecified property values
-        Car myCar = new Car("Ford","Focus","black");
+        Car myCar = new Car("Fiat","Focus","black");
 
         // Act - Invoke the method to be tested
         boolean isItalian = myCar.isItalian();
