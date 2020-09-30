@@ -19,17 +19,12 @@ public class CarTest {
     public void dezeIsEchtNogVeelZin() throws Exception {
 
         // Arrange - Create a new instance of the Car class with prespecified property values
-        Car myCar = new Car("Fiat","Focus","black");
+        Car myCar = new Car("Ford","Focus","black");
 
         // Act - Invoke the method to be tested
         boolean isItalian = myCar.isItalian();
 
         // Assert - Check that the result of the method invocation matches the expected result
-        try {
-            Assert.assertFalse(isItalian);
-        }
-        catch (AssertionError ae) {
-            throw new Exception(ae.getMessage());
-        }
+        Assert.assertFalse(isItalian);
     }
 }
